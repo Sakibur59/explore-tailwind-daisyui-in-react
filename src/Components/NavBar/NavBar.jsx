@@ -1,3 +1,4 @@
+import { Menu } from 'lucide-react';
 import React from 'react';
 
 const navData = [
@@ -30,6 +31,7 @@ const navData = [
 const NavBar = () => {
     return (
         <nav className='flex justify-between'>
+            <Menu className='md:hidden'></Menu>
             <h2>My Nav Bar</h2>
             <ul className='flex'>
                 {
