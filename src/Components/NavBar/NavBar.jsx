@@ -29,12 +29,14 @@ const navData = [
 ];
 const NavBar = () => {
     return (
-        <nav>
+        <nav className='flex justify-between'>
+            <h2>My Nav Bar</h2>
             <ul className='flex'>
                 {
                     navData.map(route => <li className='mr-10'><a href={route.path}>{route.name}</a></li>)
                 }
             </ul>
+            <button>SignOut</button>
         </nav>
     );
 };
