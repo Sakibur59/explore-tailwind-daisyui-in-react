@@ -1,13 +1,10 @@
 import "./App.css";
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-4xl text-green-800">
-          Explore Tailwind CSS in react
-        </h1>
-      </div>
+      <NavBar></NavBar>
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
