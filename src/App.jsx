@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <div className="navbar bg-base-100 shadow-sm">
+      {/* <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -76,7 +76,7 @@ function App() {
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
