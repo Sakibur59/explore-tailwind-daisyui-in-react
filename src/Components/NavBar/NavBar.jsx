@@ -1,5 +1,5 @@
-import { Menu } from 'lucide-react';
-import React from 'react';
+import { Menu, X } from 'lucide-react';
+import React, { useState } from 'react';
 
 const navData = [
   {
@@ -29,10 +29,16 @@ const navData = [
   }
 ];
 const NavBar = () => {
+  const [open,setOpen]=useState(false)
     return (
         <nav className='flex justify-between'>
-            <Menu className='md:hidden'></Menu>
+            <span className='flex'onClick={()=>setOpen(!open)}>
+              {
+                open ? <X className='md:hidden'></X>: <Menu className='md:hidden'></Menu>
+              }
+              
             <h2>My Nav Bar</h2>
+            </span>
             <ul className='flex'>
                 {
                     navData.map(route => <li className='mr-10'><a href={route.path}>{route.name}</a></li>)
