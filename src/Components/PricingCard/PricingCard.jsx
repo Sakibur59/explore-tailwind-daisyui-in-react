@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PricingData = () => {
+const PricingCard = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const PricingData = () => {
     );
 };
 
-export default PricingData;
+export default PricingCard;
