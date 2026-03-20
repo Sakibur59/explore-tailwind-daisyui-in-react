@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "Basic Plan",
-    "price": "$20/Month",
+    "price": "$20/month",
+    "description": "Perfect for beginners who want simple access to gym facilities.",
     "features": [
       "Access to gym equipment",
       "Locker room access",
@@ -12,7 +13,8 @@
   {
     "id": 2,
     "name": "Standard Plan",
-    "price": "$50/Month",
+    "price": "$50/month",
+    "description": "Ideal for regular gym-goers looking for guided workouts and flexibility.",
     "features": [
       "Unlimited gym access",
       "Group classes included",
@@ -23,7 +25,8 @@
   {
     "id": 3,
     "name": "Premium Plan",
-    "price": "$90/Month",
+    "price": "$90/month",
+    "description": "Best for fitness enthusiasts who want full support and premium facilities.",
     "features": [
       "24/7 gym access",
       "Unlimited personal training",
