@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Basic Plan",
-    "price": 20,
+    "price": "$20/Month",
     "features": [
       "Access to gym equipment",
       "Locker room access",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Standard Plan",
-    "price": 50,
+    "price": "$50/Month",
     "features": [
       "Unlimited gym access",
       "Group classes included",
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "name": "Premium Plan",
-    "price": 90,
+    "price": "$90/Month",
     "features": [
       "24/7 gym access",
       "Unlimited personal training",
