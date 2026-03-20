@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 20,
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "1 group class per week"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 50,
+    "features": [
+      "Unlimited gym access",
+      "Group classes included",
+      "2 personal training sessions/month",
+      "Diet plan guidance"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 90,
+    "features": [
+      "24/7 gym access",
+      "Unlimited personal training",
+      "Spa & sauna access",
+      "Custom workout & nutrition plan"
+    ]
+  }
+]
