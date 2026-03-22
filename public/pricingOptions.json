@@ -14,6 +14,7 @@
     "id": 2,
     "name": "Standard Plan",
     "price": "$50/month",
+    "popular" : true,
     "description": "Ideal for regular gym-goers looking for guided workouts and flexibility.",
     "features": [
       "Unlimited gym access",
