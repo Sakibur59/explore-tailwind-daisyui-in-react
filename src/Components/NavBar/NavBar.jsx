@@ -30,7 +30,7 @@ const navData = [
 ];
 const NavBar = () => {
   const [open,setOpen]=useState(false);
-  const links = navData.map(route => <li className='mr-10 px-4 hover:bg-amber-300'><a href={route.path}>{route.name}</a></li>);
+  const links = navData.map(route => <li key={route.id} className='mr-10 px-4 hover:bg-amber-300'><a href={route.path}>{route.name}</a></li>);
     return (
         <nav className='flex justify-between mt-4'>
             <span className='flex'onClick={()=>setOpen(!open)}>
