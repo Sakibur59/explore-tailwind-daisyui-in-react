@@ -88,6 +88,7 @@ const ResultsChart = () => {
     <div>
       <LineChart width={500} height={500} data={ResultData}>
         <Line dataKey="math"></Line>
+        <Line dataKey="physics"></Line>
       </LineChart>
     </div>
   );
