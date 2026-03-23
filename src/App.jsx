@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import PricingData from "./Components/PricingOption/PricingOption";
+import ResultsChart from "./Components/ResultsChart/ResultsChart";
 
 function App() {
   const pricingPromise = fetch("pricingOptions.json").then(res => res.json());
@@ -83,6 +84,8 @@ function App() {
       <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
         <PricingData pricingPromise={pricingPromise}></PricingData>
       </Suspense>
+
+      <ResultsChart></ResultsChart>
     </>
   );
 }
